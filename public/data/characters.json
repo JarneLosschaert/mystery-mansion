@@ -1,0 +1,174 @@
+{
+  "characters": [
+    {
+      "id": 11,
+      "name": "Edwin",
+      "profession": "Business Man",
+      "img": "/img/characters/edwin.jpg",
+      "actions": [
+        {
+          "id": 1101,
+          "action": "Who are you?",
+          "result": "<p>I am Edwin, a <span>business magnate</span> with a penchant for luxury and fine living. I've built my empire from the ground up and pride myself on my savvy in the <span>corporate world</span>. Despite my demanding career, I make time for my closest friends, and Johnny was one of them.</p>"
+        },
+        {
+          "id": 1102,
+          "action": "Where were you yesterday?",
+          "result": "<p>Yesterday, I spent most of the afternoon catching up with some old friends here at the mansion. In the evening, I had a <span>private conversation</span> with Johnny about a potential <span>business venture</span>. After dinner, I retreated to my room to work on some urgent emails before going to bed early. I didn't leave my room after that.</p>"
+        },
+        {
+          "id": 1103,
+          "action": "What did you talk about with Johnny?",
+          "result": "<p>Johnny and I discussed a possible partnership between our companies. He was interested in expanding his <span>investment portfolio</span> and saw potential in my latest project. We talked about the details and agreed to meet again soon to finalize the deal. It was a promising conversation, and I was looking forward to working with him.</p>",
+          "requires": [
+            1102
+          ]
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Roxane",
+      "profession": "Veterinarian",
+      "img": "/img/characters/roxane.jpg",
+      "actions": [
+        {
+          "id": 1801,
+          "action": "Who are you?",
+          "result": "<p>I'm Roxane, a <span>veterinarian</span> with a deep love for animals and a commitment to their well-being. My work is my passion, and it often keeps me busy, but I've always cherished my friendship with Johnny. He was more than just a friend; he was like a <span>brother</span> to me.</p>"
+        },
+        {
+          "id": 1802,
+          "action": "Where were you yesterday?",
+          "result": "<p>Yesterday was a mix of joy and work for me. I arrived at the mansion in the morning and spent some time exploring Johnny's beautiful <span>garden</span>. In the afternoon, I joined the others for a barbecue and shared stories about my recent adventures in <span>wildlife rescue</span>. After dinner, I took a long walk around the estate to clear my mind before heading to bed around midnight.</p>"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Henrik",
+      "profession": "Chef",
+      "img": "/img/characters/henrik.jpg",
+      "actions": [
+        {
+          "id": 1501,
+          "action": "Who are you?",
+          "result": "<p>My name is Henrik, and I am a <span>chef</span> who lives and breathes culinary arts. Cooking is not just my profession but my greatest joy. I met Johnny several years ago when I catered one of his events, and we've been good friends ever since.</p>"
+        },
+        {
+          "id": 1502,
+          "action": "Where were you yesterday?",
+          "result": "<p>I was busy in the <span>kitchen</span> for most of yesterday, preparing a feast for Johnny's birthday. In the afternoon, I took a brief break to enjoy the festivities and chat with the guests. After the party, I cleaned up the kitchen and retired to my room around 11 PM. I didn't see anyone or hear anything unusual during the night.</p>"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Sundi",
+      "profession": "Sales Manager",
+      "img": "/img/characters/sundi.jpg",
+      "actions": [
+        {
+          "id": 1701,
+          "action": "Who are you?",
+          "result": "<p>I'm Sundi, a <span>sales manager</span> with a knack for connecting with people and closing deals. My job is demanding, but I thrive on the challenge. Johnny and I met through mutual friends, and we've shared many memorable moments together over the years.</p>"
+        },
+        {
+          "id": 1702,
+          "action": "Where were you yesterday?",
+          "result": "<p>Yesterday was a blur of activity and laughter. I spent most of the day mingling with friends and catching up on old times. In the evening, we had a lively discussion about the latest <span>market trends</span> over dinner. After that, I retired to the <span>library</span> to read and fell asleep there. I woke up early this morning and was shocked to hear about Johnny.</p>"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Beno",
+      "profession": "Scientist",
+      "img": "/img/characters/beno.jpg",
+      "actions": [
+        {
+          "id": 1201,
+          "action": "Who are you?",
+          "result": "<p>I am Beno, a <span>scientist</span> dedicated to pushing the boundaries of human knowledge. My work often keeps me isolated, but Johnny was one of the few people who could draw me out of my shell. He was always curious about my research, and we had many deep conversations about science and philosophy.</p>"
+        },
+        {
+          "id": 1202,
+          "action": "Where were you yesterday?",
+          "result": "<p>I spent yesterday immersed in conversation and contemplation. In the morning, I discussed my latest <span>project</span> with Johnny, who was always keen to learn. After the group activities in the afternoon, I retreated to the study to review some research papers. I joined the others for dinner but left early to continue my reading. I went to bed around 1 AM.</p>"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Milen",
+      "profession": "Biologist",
+      "img": "/img/characters/milen.jpg",
+      "actions": [
+        {
+          "id": 1301,
+          "action": "Who are you?",
+          "result": "<p>I'm Milen, a <span>biologist</span> with a passion for studying the natural world. My work takes me to some of the most remote and beautiful places on Earth. Johnny and I shared a love for <span>adventure</span> and discovery, and we often went on expeditions together.</p>"
+        },
+        {
+          "id": 1302,
+          "action": "Where were you yesterday?",
+          "result": "<p>Yesterday, I spent most of my time outdoors, exploring the estate and its surroundings. In the evening, I joined the others for dinner and shared stories about my recent <span>fieldwork</span>. After dinner, I went outside to stargaze and think about my next project. I returned to my room late and fell asleep quickly.</p>"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Loula",
+      "profession": "Basketball Player",
+      "img": "/img/characters/loula.jpg",
+      "actions": [
+        {
+          "id": 1601,
+          "action": "Who are you?",
+          "result": "<p>I'm Loula, a professional <span>basketball player</span> known for my competitive spirit and teamwork. Sports have always been my life, but I value my friendships deeply. Johnny and I met through a charity event, and we've been close ever since.</p>"
+        },
+        {
+          "id": 1602,
+          "action": "Where were you yesterday?",
+          "result": "<p>Yesterday was filled with fun and activity. In the morning, I organized a friendly basketball game with some of the guests. Afterward, I spent time with Johnny reminiscing about old times. The evening was spent enjoying the party, and after a few games of pool, I went to bed around midnight. I didn't hear or see anything suspicious.</p>"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Victoren",
+      "profession": "Cop",
+      "img": "/img/characters/victoren.jpg",
+      "actions": [
+        {
+          "id": 1401,
+          "action": "Who are you?",
+          "result": "<p>I'm Victoren, a <span>police officer</span> with a dedication to justice and truth. My job is demanding, but it has taught me the importance of vigilance and integrity. Johnny and I became friends through our shared interest in <span>crime novels</span> and mystery games.</p>"
+        },
+        {
+          "id": 1402,
+          "action": "Where were you yesterday?",
+          "result": "<p>Yesterday, I kept a close eye on the proceedings, enjoying the festivities while staying observant. In the afternoon, I had a long chat with Johnny about his plans for the future. After dinner, I took a walk around the estate to ensureeverything was secure. I went to bed around midnight but woke up several times during the night, as is my habit. I didn't notice anything out of the ordinary until this morning.</p>"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Jack",
+      "profession": "Dog",
+      "img": "/img/characters/jack.jpg",
+      "actions": [
+        {
+          "id": 1901,
+          "action": "Who are you?",
+          "result": "<p><span>Woof!</p>"
+        },
+        {
+          "id": 1902,
+          "action": "Where were you yesterday?",
+          "result": "<p><span>Woof woof!</p>"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,216 @@
+{
+    "rooms": [
+        {
+            "id": 25,
+            "name": "Master Bedroom",
+            "img": "/img/rooms/master_bedroom.jpg",
+            "actions": [
+                {
+                    "id": 2501,
+                    "action": "Investigate the room",
+                    "result": "<p>You search the room meticulously. Under the bed, you find a crumpled <span>piece of paper</span> with a cryptic message. On Johnny's desk, a half-written letter hints at a <span>secret deal</span> gone wrong. The wardrobe is slightly ajar, and inside, you discover a <span>hidden safe</span> with a digital lock, begging to be opened.</p>"
+                },
+                {
+                    "id": 2502,
+                    "action": "Examine Johnny's body",
+                    "result": "<p>You approach Johnny's body with caution. His lifeless eyes stare at the ceiling, and a faint <span>smell of almonds</span> lingers in the air. Upon closer inspection, you notice a small <span>puncture wound</span> on his neck. Clutched in his hand is a broken watch, its hands frozen at <span>11:45 PM</span>.</p>"
+                },
+                {
+                    "id": 2503,
+                    "action": "Open the hidden safe",
+                    "result": "<p>You try to open the hidden safe, but it requires a <span>four-digit code</span>.<br/>What would the code be?</p>",
+                    "img": "/img/other/safe.jpg",
+                    "solution": "1123",
+                    "requires": [
+                        2501
+                    ]
+                },
+                {
+                    "id": 2504,
+                    "action": "Look inside the hidden safe",
+                    "result": "<p>The safe clicks open, revealing its contents. Inside, you find a stack of <span>cash</span>, a <span>passport</span> with a different name, and a <span>flash drive</span> labeled 'For emergencies only.' The items suggest Johnny had a <span>secret life</span> beyond the mansion.</p>",
+                    "img": "/img/other/safe.jpg",
+                    "requires": [
+                        2503
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 21,
+            "name": "Hallway",
+            "img": "/img/rooms/hallway.jpg",
+            "actions": [
+                {
+                    "id": 2101,
+                    "action": "Inspect the hallway",
+                    "result": "<p>You walk down the dimly lit hallway, examining every corner. <span>Scuff marks</span> lead from the master bedroom to the living room. A painting on the wall seems slightly crooked, and behind it, you find a small <span>hidden compartment</span> containing an old, rusty <span>key</span>.</p>"
+                }
+            ]
+        },
+        {
+            "id": 22,
+            "name": "Living Room",
+            "img": "/img/rooms/living_room.jpg",
+            "actions": [
+                {
+                    "id": 2201,
+                    "action": "Search the living room",
+                    "result": "<p>The living room is filled with luxurious furniture and priceless art. You notice a bookshelf with one book noticeably <span>out of place</span>. Pulling the book reveals a <span>secret drawer</span> containing a ledger with suspicious entries and a photograph of Johnny with an unknown <span>person</span>.</p>"
+                },
+                {
+                    "id": 2202,
+                    "action": "Check the fireplace",
+                    "result": "<p>You kneel by the grand fireplace, sifting through the ashes. Amongst the charred remains, you find the remnants of a <span>burnt document</span>. With careful handling, you manage to piece together some of the text, revealing a list of names, including <span>Johnny's</span>.</p>"
+                }
+            ]
+        },
+        {
+            "id": 23,
+            "name": "Dining Room",
+            "img": "/img/rooms/dining_room.jpg",
+            "actions": [
+                {
+                    "id": 2301,
+                    "action": "Examine the dining table",
+                    "result": "<p>The dining table is set for a feast, but one seat is conspicuously <span>empty</span>. You find a <span>spilled glass of wine</span> near Johnny's usual spot, and beneath it, a small vial labeled '<span>Cyanide</span>.' Nearby, a napkin is stained with lipstick and a hastily written note: 'Meet me in the library at <span>midnight</span>'.</p>"
+                },
+                {
+                    "id": 2302,
+                    "action": "Inspect the china cabinet",
+                    "result": "<p>You open the ornate china cabinet and carefully inspect its contents. Amongst the fine china, you find a <span>hidden compartment</span> behind a stack of plates. Inside, there's a small, locked box with an intricate design, suggesting it's a family <span>heirloom</span>.</p>"
+                }
+            ]
+        },
+        {
+            "id": 24,
+            "name": "Kitchen",
+            "img": "/img/rooms/kitchen.jpg",
+            "actions": [
+                {
+                    "id": 2401,
+                    "action": "Search the pantry",
+                    "result": "<p>The pantry is well-stocked, but a few items seem <span>out of place</span>. Behind a row of canned goods, you find a small, concealed door leading to a narrow <span>staircase</span>. On one of the shelves, a bottle of wine stands out – it's labeled '<span>Special Reserve</span>' and appears to have been tampered with.</p>"
+                },
+                {
+                    "id": 2402,
+                    "action": "Check the refrigerator",
+                    "result": "<p>You open the refrigerator to find an array of gourmet foods. However, a single container catches your eye. It's labeled '<span>For Johnny</span>' and contains a peculiar mixture. Further inspection reveals it to be a concoction of various chemicals, some of which are highly <span>toxic</span>.</p>"
+                }
+            ]
+        },
+        {
+            "id": 28,
+            "name": "Library",
+            "img": "/img/rooms/library.jpg",
+            "actions": [
+                {
+                    "id": 2801,
+                    "action": "Search the bookshelves",
+                    "result": "<p>You comb through the extensive collection of books. One shelf stands out, filled with crime novels and detective stories. Behind one of the books, you find a <span>hidden safe</span>. The combination lock appears to be based on a sequence of numbers from a classic detective <span>novel</span>.</p>"
+                },
+                {
+                    "id": 2802,
+                    "action": "Inspect the desk",
+                    "result": "<p>The desk in the library is cluttered with papers and old manuscripts. A drawer is slightly open, revealing a concealed compartment. Inside, you find a <span>detailed map</span> of the mansion with certain rooms circled and annotated. A <span>magnifying glass</span> lies next to it, suggesting recent use.</p>"
+                }
+            ]
+        },
+        {
+            "id": 31,
+            "name": "Edwin's Guest Room",
+            "img": "/img/rooms/guest_bedroom.jpg",
+            "actions": [
+              {
+                "id": 3101,
+                "action": "Search Edwin's room",
+                "result": "<p>Edwin's room is immaculate, with a suitcase neatly packed in the corner. On the bedside table, you find a ledger detailing various <span>business transactions</span> and a note from Johnny discussing their potential <span>partnership</span>.</p>"
+              }
+            ]
+          },
+          {
+            "id": 32,
+            "name": "Roxane's Guest Room",
+            "img": "/img/rooms/guest_bedroom.jpg",
+            "actions": [
+              {
+                "id": 3201,
+                "action": "Search Roxane's room",
+                "result": "<p>Roxane's room is filled with veterinary books and animal care supplies. Among her belongings, you find a <span>letter</span> from Johnny expressing gratitude for her help with his pets and mentioning a <span>private conversation</span> they had.</p>"
+              }
+            ]
+          },
+          {
+            "id": 33,
+            "name": "Henrik's Guest Room",
+            "img": "/img/rooms/guest_bedroom.jpg",
+            "actions": [
+              {
+                "id": 3301,
+                "action": "Search Henrik's room",
+                "result": "<p>Henrik's room smells faintly of spices. You find a collection of <span>recipes</span> and a note from Johnny requesting a special <span>birthday dish</span>. There's also a small vial labeled '<span>Secret Ingredient</span>.'</p>"
+              }
+            ]
+          },
+          {
+            "id": 34,
+            "name": "Sundi's Guest Room",
+            "img": "/img/rooms/guest_bedroom.jpg",
+            "actions": [
+              {
+                "id": 3401,
+                "action": "Search Sundi's room",
+                "result": "<p>Sundi's room is organized and professional. You find a <span>briefcase</span> with documents on market trends and a <span>thank you card</span> from Johnny for helping with a recent <span>business strategy</span>.</p>"
+              }
+            ]
+          },
+          {
+            "id": 35,
+            "name": "Beno's Guest Room",
+            "img": "/img/rooms/guest_bedroom.jpg",
+            "actions": [
+              {
+                "id": 3501,
+                "action": "Search Beno's room",
+                "result": "<p>Beno's room is cluttered with scientific papers and equipment. You find a <span>research paper</span> with Johnny's name in the acknowledgment section, and a <span>journal entry</span> discussing a recent <span>breakthrough</span>.</p>"
+              }
+            ]
+          },
+          {
+            "id": 36,
+            "name": "Milen's Guest Room",
+            "img": "/img/rooms/guest_bedroom.jpg",
+            "actions": [
+              {
+                "id": 3601,
+                "action": "Search Milen's room",
+                "result": "<p>Milen's room is decorated with nature photographs. You find a <span>field journal</span> detailing recent expeditions and a <span>letter</span> from Johnny discussing their next <span>adventure</span> together.</p>"
+              }
+            ]
+          },
+          {
+            "id": 37,
+            "name": "Loula's Guest Room",
+            "img": "/img/rooms/guest_bedroom.jpg",
+                "actions": [
+              {
+                "id": 3701,
+                "action": "Search Loula's room",
+                "result": "<p>Loula's room has sports memorabilia and a basketball. You find a <span>trophy</span> with Johnny's name engraved, given to him by Loula, and a <span>training schedule</span> they planned to follow together.</p>"
+              }
+            ]
+          },
+          {
+            "id": 38,
+            "name": "Victoren's Guest Room",
+            "img": "/img/rooms/guest_bedroom.jpg",
+            "actions": [
+              {
+                "id": 3801,
+                "action": "Search Victoren's room",
+                "result": "<p>Victoren's room is neat and orderly. You find a collection of <span>crime novels</span> and a <span>notebook</span> with detailed observations about the guests, including Johnny.</p>"
+              }
+            ]
+          }
+    ]
+}
