@@ -20,7 +20,7 @@
     </div>
 
     <div v-if="showResult" class="result">
-      <h3>{{ actions[selectedAction].text }}</h3>
+      <h3>{{ actions[selectedAction].action }}</h3>
       <p class="text" v-html="displayedResult"></p>
       <div v-if="hasSolution" class="solution">
         <input type="text" placeholder="Enter the solution" />
